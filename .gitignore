@@ -1,3 +1,19 @@
 pubmed_users.db
 __pycache__/
 *.pyc
+# 向量数据库与模型缓存（体积大，不提交）
+data/lancedb/
+data/lancedb_proto/
+data/hf_cache/
+
+# IDE config
+.trae/
+# Test databases
+test_*.db
+test_*.db-wal
+test_*.db-shm
+
+# Scripts data (model cache, test data)
+scripts/data/
+# App data directory
+data/
